@@ -40,7 +40,6 @@ func main() {
 		//
 		if strings.Contains(l, search) {
 			rline := strings.Replace(l, search, replace, -1)
-			fmt.Println(rline) //DEBUG
 			lines[i] = rline
 		}
 	}
